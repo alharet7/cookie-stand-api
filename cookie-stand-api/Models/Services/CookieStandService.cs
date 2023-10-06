@@ -21,6 +21,7 @@ namespace cookie_stand_api.Models.Services
                 Description = cookieStandPostDTO.Description,
                 Minimum_Customers_PerHour = cookieStandPostDTO.Minimum_Customers_PerHour,
                 Maximum_Customers_PerHour = cookieStandPostDTO.Maximum_Customers_PerHour,
+                Average_Cookies_PerSale = cookieStandPostDTO.Average_Cookies_PerSale,
                 Owner = cookieStandPostDTO.Owner,
             };
             var newCookie = await _context.CookieStands.AddAsync(cookieStand);

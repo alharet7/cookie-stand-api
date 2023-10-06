@@ -11,7 +11,7 @@ using cookie_stand_api.Data;
 namespace cookie_stand_api.Migrations
 {
     [DbContext(typeof(CookieDbContext))]
-    [Migration("20231005064809_initialMigration")]
+    [Migration("20231006081244_initialMigration")]
     partial class initialMigration
     {
         /// <inheritdoc />
