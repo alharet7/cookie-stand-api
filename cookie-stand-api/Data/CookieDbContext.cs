@@ -17,6 +17,8 @@ namespace cookie_stand_api.Data
                 key.ID,
                 key.CookieStandID
             });
+
+           
         }
         public DbSet<CookieStand> CookieStands { get; set; }
         public DbSet<HourlySales> HourlySales { get; set; }
